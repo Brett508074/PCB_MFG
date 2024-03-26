@@ -2,7 +2,7 @@
 
 # PCB_MFG
 
-This repository was created for working with and improving the on-campus PCB design and production process using open-source software resources as well as physical resources and space provided by the University of Colorado Boulder and Colorado Mesa University Partnership Program on the Colorado Mesa University campus. These resources are made available to students and faculty alike.
+This repository was created for working with and improving the on-campus printed circuit board (PCB) design and production process using open-source software resources as well as physical resources and space provided by the University of Colorado Boulder and Colorado Mesa University Partnership Program on the Colorado Mesa University campus. These resources are made available to students and faculty alike.
 
 ## Introduction
 
@@ -67,7 +67,7 @@ Originally, Inkscape and jscut were used to create Gcode files using SVGs, rathe
 * [Using Inkscape and jscut](Documentation/using_Inkscape_JSCut.md)
 
 ## Heightmap Modeling
-As a Fall 2023 Intro to Probability Theory final project, a dataset was built from Candle heightmaps and various conclusions were drawn from observations and analysis of this data. Data was interpreted using the MATLAB scripts included in this repository. The resultant report and supporting materials are included in [Reports](/Reports/).
+A heightmap is the contour of the copper plate being milled into by the CNC machine. For a successfull PCB the drill depth of the CNC machine must be percise requiring a heightmap. As a Fall 2023 Intro to Probability Theory final project, a dataset was built from Candle heightmaps and various conclusions were drawn from observations and analysis of this data. Data was interpreted using the MATLAB scripts included in this repository. The resultant report and supporting materials are included in [Reports](/Reports/).
 
 The resultant model heightmap, which is based on the mean data, is available at [/Reports/Code/bootModel.map](/Reports/Code/bootModel.map). This heightmap may prove more useful as the dataset grows.
 
